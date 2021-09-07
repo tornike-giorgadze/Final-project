@@ -1,0 +1,124 @@
+
+
+@media all and (max-width: 900px){
+    nav ul {
+        margin-right: 0px;
+        float: left;
+    }
+    nav .logo{
+        padding-left: 30px;
+        width: 100%;
+    }
+    nav ul li, nav ul ul li{
+        display: block;
+        width: 100%;
+    }
+    nav ul ul{
+        top:70px;
+        position: static;
+        border-top:none;
+        float: none;
+        display: none;
+        opacity: 1;
+        visibility: visible;
+    }
+    nav ul ul ul li {
+        position: static;
+    }
+    nav ul ul li {
+        border-bottom: 0px;
+    } 
+    nav ul ul ul a{
+        padding-left: 40px;
+    }
+    .nav ul ul ul a{
+        padding-left: 80px;
+    }
+    .show{
+        display: block;
+        color: white;
+        font-size: 18px;
+        padding: 0 20px;
+        line-height:70px;
+        cursor: pointer;
+    }
+    .show:hover{
+        color:cyan;
+    }
+    .nav-bar-icon{
+        display: block;
+        color: white;
+        position: absolute;
+        right: 40px;
+        line-height: 70px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    nav ul li a:hover{
+        box-shadow: none;
+    }
+    .show + a, ul{
+        display: none;
+    }
+    [id^=btn]:checked + ul{
+        display: block;
+    }
+    .nav-ul{
+        margin-right: 800px;
+    }
+}
+@media (max-width:900px){
+    .section_1 {
+        position: relative;
+    }
+    .slides{
+        position: absolute;
+        top: 20%;
+    }
+}
+@media (max-width:900px){
+    .card{
+       margin-left: 20px;    
+    }
+}
+@media (max-width:900px){
+    .section_5{
+        margin-top: 50px;
+    
+    }
+    .section_4{
+        position: relative;
+        bottom: 300px;
+    }
+}
+@media (max-width:900px){
+    
+    .about-container{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 800px;   
+    }
+     .about-left-box{
+        margin-top:190px;
+    }
+    .about-right-box{
+        margin-right: 300px;
+        font-size: 15px;
+        height:  200px;
+    }
+}
+
+
+@media (max-width:768px){
+    .footer-col{
+        width: 50%;
+        margin-bottom:30px
+    }
+}
+@media (max-width:574px){
+    .footer-col{
+        width: 100%;
+        
+    }
+}
