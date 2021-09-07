@@ -58,14 +58,13 @@
         box-shadow: none;
     }
     .show + a, ul{
-        display: none;
+        display: block;
+        
     }
     [id^=btn]:checked + ul{
         display: block;
     }
-    .nav-ul{
-        margin-right: 800px;
-    }
+    
 }
 @media (max-width:900px){
     .section_1 {
@@ -82,13 +81,20 @@
     }
 }
 @media (max-width:900px){
+    .about-us{
+        position: relative;
+        right: 30%;
+    }
+}
+@media (max-width:900px){
     .section_5{
-        margin-top: 50px;
+        margin-top: 300px;
     
     }
-    .section_4{
-        position: relative;
-        bottom: 300px;
+    #about{
+        margin: 0 auto;
+        font-size: 10px;
+        display: none;
     }
 }
 @media (max-width:900px){
@@ -113,12 +119,30 @@
 @media (max-width:768px){
     .footer-col{
         width: 50%;
-        margin-bottom:30px
+        margin-bottom:30px;
+    }
+}
+@media (max-width:635px){
+    .about-us{
+        position: relative;
+        right: 50%;
     }
 }
 @media (max-width:574px){
     .footer-col{
         width: 100%;
         
+    }
+}
+@media (max-width:520px){
+    .about-us{
+        position: relative;
+        right: 80%;
+    }
+}
+@media (max-width:430px){
+    .about-us{
+        position: relative;
+        right: 120%;
     }
 }
