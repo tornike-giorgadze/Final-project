@@ -7,6 +7,7 @@ toggleButtonBurger.addEventListener('click', function(){
 });
 
 
+
 /*counter*/
 $(document).ready(function(){
     $(".num").counterUp({

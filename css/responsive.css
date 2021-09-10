@@ -45,15 +45,6 @@
     .show:hover{
         color:cyan;
     }
-    .nav-bar-icon{
-        display: block;
-        color: white;
-        position: absolute;
-        right: 40px;
-        line-height: 70px;
-        font-size: 25px;
-        cursor: pointer;
-    }
     nav ul li a:hover{
         box-shadow: none;
     }
@@ -66,6 +57,7 @@
     }
     
 }
+
 @media (max-width:900px){
     .section_1 {
         position: relative;
@@ -73,6 +65,12 @@
     .slides{
         position: absolute;
         top: 20%;
+    }
+}
+@media (max-width:600px){
+    .wrapper{
+        display: flex;
+        flex-direction: column;
     }
 }
 @media (max-width:900px){

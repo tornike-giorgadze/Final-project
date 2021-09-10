@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="images/web_icon.png"  sizes="16x16">
-    <title>final</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Final-Project</title>
 </head>
 <body>
   <header class="navigation">
@@ -37,7 +38,7 @@
         </ul>
     </nav>
 </header> 
-    <section  id="home" class="section_1">
+    <section  id="home" class="section_1" data-aos="fade-left">
        <div class="slidershow middle">
             <div class="slides">
                 <input type="radio" name="r" id="r1" checked>
@@ -66,7 +67,7 @@
        </div>
    </section> 
    
-   <section class="section2">
+   <section class="section2" data-aos="fade-right">
        <div class="wrapper">
            <div class="card">
                <img src="images/hungry.jpg" alt="">
@@ -97,7 +98,7 @@
         <div class="about-us-box">
         <h5 class="about-us">About Us</h5>
         <div>
-   <section id="about"class="section_3">
+   <section id="about"class="section_3" data-aos="fade-left">
         <div class="about-container">
             <div class="about-left-box">
                 <img class="about-image" src="images/about-charity.jpg" alt="">
@@ -111,7 +112,7 @@
             </div>
         </div>
    </section>
-   <section  id="cases" class="section_4">
+   <section  id="cases" class="section_4" data-aos="fade-right">
        <div class="counter-middle">
             <div class="counting-sec">
                 <div class="inner-width">
@@ -139,7 +140,7 @@
             </div>
        </div>
    </section>
-    <section class="section-5">
+    <section class="section-5" data-aos="fade-left">
         <div class="box-container">
             <div class="center-box-wrapper">
                 <h4 class="headline">We serve for peoples</h4>
@@ -173,7 +174,7 @@
         </div>
         
     </section>
-        <section class="reg-form">
+        <section class="reg-form" data-aos="fade-right">
                 <div class="container">
                     <div class="reg-card">
                         <div class="inner-box" id="card">
@@ -206,7 +207,7 @@
                 </div>
             
         </section>
-     <section class="section_6">
+     <section class="section_6" data-aos="fade-left">
             <footer class="footer">
                 <div class="footer-container">
                     <div class="row">
@@ -275,5 +276,9 @@
     }
 
 </script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body> 
 </html>
