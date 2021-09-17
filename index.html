@@ -11,17 +11,22 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="images/web_icon.png"  sizes="16x16">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <meta property="og:url"                content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
+    <meta property="og:type"               content="Charity" />
+    <meta property="og:title"              content="Charity helps everyone" />
+    <meta property="og:description"        content="Help poor people and god helps you" />
+    <meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
     <title>Final-Project</title>
 </head>
 <body>
   <header class="navigation">
-    <nav>
-                <div class="logo">CharityCompany</div>
-         <ul class="nav-ul">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Cases</a>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Donation</a>
+    <nav class = "navbar">      
+        <div class="logo">CharityCompany</div>
+        <ul class="nav-ul">
+            <li><a href="#Homepage">Home</a></li>
+            <li><a href="#Casesscroll">Cases</a><li>
+            <li><a href="#scroll_About">About</a></li>
+            <li><a href="#cases">Donation</a>
                         <ul>   
                             <li><a href="#">Hungry people</a></li>
                             <li><a href="#">Medical</a></li>
@@ -32,13 +37,13 @@
                                     </a>
                                 </li>
                         </ul>  
-                    </li>
-                    <li><a href="#">Contact</a></li>
-                </li>
+            </li>
+            <li><a href="#footer">Contact</a></li>
         </ul>
+       </div>
     </nav>
-</header> 
-    <section  id="home" class="section_1" data-aos="fade-left">
+  </header> 
+    <section  id="home" class="section_1">
        <div class="slidershow middle">
             <div class="slides">
                 <input type="radio" name="r" id="r1" checked>
@@ -67,7 +72,7 @@
        </div>
    </section> 
    
-   <section class="section2" data-aos="fade-right">
+   <section id="Casesscroll"class="section2" data-aos="fade-right">
        <div class="wrapper">
            <div class="card">
                <img src="images/hungry.jpg" alt="">
@@ -80,7 +85,7 @@
            <div class="card">
             <img src="images/hungry2.jpg" alt="">
             <div class="info">
-                <h2>Poor Children</h1>
+                <h2>Poor Children</h2>
                 <p>Small charities can bring bigger impacts, Your Passion for giving is Commendable Don't wait</p>
                 <a href="#" class="btn">Donate</a>
             </div>
@@ -88,7 +93,7 @@
         <div class="card">
             <img src="images/hungry3.jpg" alt="">
             <div class="info">
-                <h3>Hunger</h1>
+                <h3>Hunger</h3>
                 <p>Help the poor, help the homeless and Give them a chance, move them toward success</p>
                 <a href="#" class="btn">Donate</a>
             </div>
@@ -98,20 +103,22 @@
         <div class="about-us-box">
         <h5 class="about-us">About Us</h5>
         <div>
-   <section id="about"class="section_3" data-aos="fade-left">
-        <div class="about-container">
-            <div class="about-left-box">
-                <img class="about-image" src="images/about-charity.jpg" alt="">
+    <section id="scroll_About">
+        <div id="about" class="section_3" data-aos="fade-left">
+                    <div class="about-container">
+                        <div class="about-left-box">
+                            <img class="about-image" src="images/about-charity.jpg" alt="">
+                        </div>
+                        <div class="about-right-box">
+                            <h4 class="about-text">Who we are?</h4>
+                            <p class="about-description">The legal definition of a charitable organization (and of charity) varies between countries and in some instances regions of the country. The regulation, the tax treatment, and the way in which charity law affects charitable organizations also vary.</p>
+                                <div>
+                            <p3 class="about-learn-more">Learn More</p3>
+                            </div>
+                        </div>
+                    </div> 
             </div>
-            <div class="about-right-box">
-                <h4 class="about-text">Who we are?</h1>
-                <p class="about-description">The legal definition of a charitable organization (and of charity) varies between countries and in some instances regions of the country. The regulation, the tax treatment, and the way in which charity law affects charitable organizations also vary.</p>
-                    <div>
-                <p3 class="about-learn-more">Learn More</p3>
-                </div>
-            </div>
-        </div>
-   </section>
+      </section>  
    <section  id="cases" class="section_4" data-aos="fade-right">
        <div class="counter-middle">
             <div class="counting-sec">
@@ -203,11 +210,9 @@
                             </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            
+                    </div>     
         </section>
-     <section class="section_6" data-aos="fade-left">
+     <section  id="footer"class="section_6" data-aos="fade-left">
             <footer class="footer">
                 <div class="footer-container">
                     <div class="row">
